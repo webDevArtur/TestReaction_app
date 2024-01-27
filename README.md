@@ -1,30 +1,26 @@
-# React + TypeScript + Vite
+# React Тест на Скорость Реакции
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Это приложение на React измеряет время реакции пользователя, предлагая ему нажать на кнопку, когда она меняет цвет. Приложение предоставляет обратную связь в зависимости от времени реакции пользователя.
 
-Currently, two official plugins are available:
+## Возможности
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Начните тест на время реакции с случайной задержкой.
+- Получайте обратную связь в зависимости от вашего времени реакции.
+- Дополнительная таблица с информацией о производительности.
 
-## Expanding the ESLint configuration
+## Начало работы
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Эти инструкции помогут вам настроить и запустить проект на вашем компьютере.
 
-- Configure the top-level `parserOptions` property like this:
+### Предварительные требования
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- Установлен Node.js и npm на вашем компьютере.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Установка
+
+1. Клонируйте репозиторий:
+
+   ```bash
+   git clone https://github.com/ваше-имя-пользователя/react-тест-на-скорость-реакции.git
+   npm install
+   npm start
